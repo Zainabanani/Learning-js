@@ -129,7 +129,7 @@ const author = "Chinua Achebe"
 const book = "Things fall Apart"
 const year1 = 1996;
 
-console.log("The book" + " " + book + " " + "was written by" + " " + author + " " + "in the year" + " " + year1);
+console.log("The book " + book + " was written by " + author + " in the year " + year1);
 
 //template
 const bookDescription = `The book ${book} was written by ${author} in the year ${year1}`
@@ -150,3 +150,44 @@ const year = 2003
 //boolean - true and false
 //null - null
 //undefined -undefined (no value)
+
+
+const boyFriend = "Adam"
+const girlFriend = "Zeebaby"
+
+console.log(boyFriend);
+console.log(girlFriend);
+
+const bayani = `my boyfriend name is ${boyFriend}`
+console.log(bayani);
+
+console.log(boyFriend.toUpperCase ());
+console.log(girlFriend.toLowerCase ());
+
+console.log(boyFriend.includes('m'));
+console.log(boyFriend.includes('s'));
+
+console.log(boyFriend.startsWith('A'));
+console.log(girlFriend.endsWith('y'));
+
+console.log(boyFriend.indexOf('m'));
+console.log(girlFriend.indexOf('y'));
+
+console.log(girlFriend.slice(3, 5));
+
+console.log(girlFriend.replaceAll('e', 'u'));
+
+
+const username2 = '     Hadiza'
+const password2 = '      23454r6454   '
+console.log(username2);
+console.log(password2);
+
+console.log(username2.length);
+console.log(password2.length);
+
+console.log(username2.trim());
+console.log(password2.trimEnd());
+console.log(password2.trim());
+
+console.log(password2.length);
